@@ -1,0 +1,126 @@
+body{
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-size: cover;
+    height: 750px ;
+    background-repeat: repeat-x;
+    background-position: center;
+    font-size: 16px;
+    
+}
+
+
+.order-app{
+   
+    margin: auto;
+    text-align: center;
+    border: 1px transparent;
+    border-radius: 15px;
+    height: 600px;
+    width: 360px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px #adacac;
+    
+}
+
+
+.order {
+    font-size: 30px;
+    font-weight: 900;
+    color: navy;
+    padding: 15px;
+}
+
+.order-sum {
+    font-size: 19px;
+   padding: 15px;
+   color: hsl(225, 29%, 52%);
+    line-height: 1.4;
+    font-weight: 700px;
+}
+
+.order-center {
+    background-color: hsl(225, 100%, 98%);
+   border-radius: 15px;
+   width: 300px;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+    padding: 17px;
+   
+
+}
+
+
+
+
+.annual {
+    margin: auto;
+    font-size: 19px;
+    color: navy;
+    font-weight: 900;
+  text-indent: 30px;
+}
+
+.year {
+    margin: auto;
+    padding: 6px;
+    font-size: 19px;
+    color: hsl(225, 29%, 52%);
+    font-weight: 400;
+    text-indent: 20px;
+}
+.change {
+    margin: auto;
+        padding: 6px;
+        font-size: 18px;
+        color:hsl(245, 75%, 52%);
+        font-weight: 900;
+        text-indent: 35px;
+        text-decoration-line: underline;
+}
+
+.change:hover {
+    cursor: pointer;
+    color: rgb(0, 153, 255);
+}
+
+
+.payment {
+    padding: 25px;
+    margin: auto;
+    
+   
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    height: 50px;
+    width: 300px;
+    font-size: 19px;
+box-shadow: 5px 5px 10px  #adacac;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:hsl(245, 71%, 42%) ;
+    font-size: 20px;
+}
+
+.cancel {
+
+    margin: auto;
+
+        font-size: 20px;
+        color: hsl(225, 29%, 52%);
+        font-weight: 800;
+      
+}
+.cancel:hover {
+cursor: pointer;
+   color: hsl(225, 43%, 66%);
+    font-size: 21px;
+
+}
