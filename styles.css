@@ -1,4 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@800&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display' sans-serif;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    font-size: 16px;
+
+}
+
+.order-app {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px ;
+    overflow: hidden;
+}
+
+.order-text {
+    padding: 7%;
+    text-align: center;
+}
+
+.order {
+   color: hsl(223, 47%, 23%);
+   font-weight: 900;
+   font-size: 32px;
+   margin-bottom: 20px;
+}
+
+.order-sum {
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+}
+
+.order-center {
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.plan {
+display: flex;
+flex-direction: column;
+ text-align: left;
+ align-items: center;
+justify-content: space-between;
+margin-right: 130px;
+
+}
+.plan div {
+    margin-left: 20px;
+}
+
+.annual {
+    font-weight: 900;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 8px;
+  
+}
+
+.year {
+    color: hsl(225, 29%, 52%);
+ 
+}
+
+.change {
+    color:hsl(223, 47%, 23%);
+        font-weight: 900;
+        text-decoration-line: underline;
+       
+}
+
+.change:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+    transition: color .3s ease;
+}
+
+.payment {
+background-color: hsl(245, 75%, 52%);
+color: white;
+padding: 20px 0;
+border-radius: 12px;
+margin: 30px 0;
+font-weight: 900;
+}
+.payment:hover {
+    cursor: pointer;
+    background-color:hsl(225, 29%, 52%) ;
+    font-size: 17px;
+    transition: background-color .3s ease;
+}
+
+
+.cancel {
+
+    margin: auto;
+
+        color: hsl(225, 29%, 52%);
+        font-weight: 900;
+      
+}
+.cancel:hover {
+cursor: pointer;
+   color: hsl(225, 43%, 66%);
+    
+
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        font-size: 14px;
+    }
+    .order-app {
+        max-width: 87%;
+    }
+
+    .order-sum {
+        font-size: 18px;
+    }
+
+    .plan {
+        margin-right: 10px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -139,4 +329,4 @@ cursor: pointer;
     .order-app {
         width: 24rem;
     }
-}
+} */
